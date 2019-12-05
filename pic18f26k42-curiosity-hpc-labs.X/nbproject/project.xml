@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>PIC18F26K42_Cur_v355</name>
+            <name>pic18f26k42-curiosity-hpc-labs</name>
             <creation-uuid>b08d99a1-4d35-4965-ba95-1f2a31d57d6a</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
