@@ -2,7 +2,7 @@
 
 # Curiosity HPC Labs - PIC18F26K42
 
-The goal of this example is to provide 10 labs that will demonstrate Curiosity HPC board capabilities and showcase the functionality of PIC18F45K42 device. The concept is to create a state machine where you can navigate through each lab using the S1 button. The output of labs is shown using four LEDs provided by the Curiosity development board. Some labs need a potentiometer for Analog input. This project is primarily created with the aim of helping beginners in basic programming of MCUs.
+The goal of this example is to provide 10 labs that will demonstrate Curiosity HPC board capabilities and showcase the functionality of PIC18F26K42 device. The concept is to create a state machine where you can navigate through each lab using the S1 button. The output of labs is shown using four LEDs provided by the Curiosity development board. Some labs need a potentiometer for Analog input. This project is primarily created with the aim of helping beginners in basic programming of MCUs.
 
 This example also make use of the latest MPLAB Code Configurator (MCC) Melody, an easy-to-use plugin tool for MPLAB X IDE that you can use to generate codes for a more efficient use of the CPU and memory resources. All labs are written in C language and are compatible with the latest XC8 compiler.
 
@@ -111,7 +111,7 @@ The four most significant bits of the ADC result are reflected onto each of the 
 The ADC value will be printed on UART TX pin which is connected to pin RC6 through PPS. Connect this pin to the Virtual COM port's TX pin using a jumper wire to use the onboard serial to USB feature.
 
 #### Summary
-The PIC18-Q43 family of devices have an on-board Analog-to-Digital Converter with Computation (ADCC) with 12 bits of resolution. The converter can be referenced to the device’s VDD or an external voltage reference. This lab references it to VDD. The result from the ADC is represented by a ratio of the voltage to the reference.
+The PIC18-K42 family of devices have an on-board Analog-to-Digital Converter with Computation (ADCC) with 12 bits of resolution. The converter can be referenced to the device’s VDD or an external voltage reference. This lab references it to VDD. The result from the ADC is represented by a ratio of the voltage to the reference.
 <br><img src= "https://i.imgur.com/xOCuHXb.png">
 <br><img src= "images/adcc.png">
 
